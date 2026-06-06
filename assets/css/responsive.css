@@ -1,0 +1,105 @@
+@media only screen and (max-width : 2500px) {
+	.page-wrapper{
+		overflow:hidden;
+	}
+	
+}
+@media only screen and (max-width : 1199px) {
+	.atf-quote{
+		display:none;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.atf-single-details h2{
+		font-size:40px;
+	}
+	.atf-footer-social-icon a i{
+		margin-right: 8px;
+	}
+	.atf-about-content {
+		margin-bottom: 40px;
+	}
+	#faq{
+		margin-top:90px;
+	}
+	.atf-map-area .atf-contact-area{
+		right:20%;
+	}
+}
+@media only screen and (max-width : 991px) {
+	.atf-parsdise-single-silder > div > h1{
+		font-size:35px;
+	}
+	.atf-parsdise-single-silder > div > h4{
+		font-size:14px;
+	}
+	#faq {
+		margin-top:90px;
+	}
+	.atf-faq-image{
+		margin-top: 30px;
+	}
+	.atf-mailchamp-headding h2{
+		margin-bottom:30px;
+	}
+	.atf-quote{
+		display:none;
+	}
+	.atf-single-about{
+		margin: 20px 0px;
+	}
+	.atf-blog-area .atf-single-blog{
+		margin: 15px 0px;
+	}
+	.atf-testimonial-info {
+		padding: 50px 0 50px 38px;
+	}
+	.atf-footer-link{
+		margin: 15px 0px;
+	}
+	.atf-counter-91{
+		margin-top: 30px;
+	}
+	#contact .atf-section-title{
+		margin-top: 40px;
+	}
+	.atf-map-area .atf-contact-area{
+		position:relative;
+		margin:40px 0;
+	}
+	.map-contact{
+		background:var(--thm-f6);
+	}
+
+}
+@media only screen and (max-width: 767px) {
+	.atf-section-title p {
+		width: 100%;
+	}
+	.atf-blog-area .atf-single-blog img{
+		width:100%;
+	}
+	.atf-counter-value,.atf-about-text h3{margin:10px 0;}
+	.form-message{
+		padding-bottom:30px;
+	}
+	.atf-hero-area .atf-single-details h2{
+		font-size:45px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.atf-faq-accordion .panel-title button:before, .atf-faq-accordion .panel-title button.collapsed:before, .atf-faq-accordion .panel-title button:after, .atf-faq-accordion .panel-title button.collapsed:after{
+		top:25px;
+	}
+	.atf-faq-accordion .panel-title button{text-align:left;}
+	.atf-hero-area .atf-single-details h2{
+		font-size:30px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.atf-top-header {
+		margin-top: 120px;
+	}
+}
