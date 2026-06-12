@@ -53,6 +53,12 @@ body {
 	--thm-p: #8b8f92;
 }
 
+.media-item.spacer {
+  display: block;
+  background: transparent;
+  pointer-events: none; /* non cliquable */
+  visibility: hidden;   /* invisible mais occupe l'espace */
+}
 /* Masque la bannière et les éléments UI de Google Translate */
 .goog-te-banner-frame,
 .skiptranslate,
