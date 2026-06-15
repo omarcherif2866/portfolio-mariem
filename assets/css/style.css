@@ -52,7 +52,11 @@ body {
 	--thm-fb: #f6f6f6;
 	--thm-p: #8b8f92;
 }
-
+.atf-faq-image img{
+    max-height: 550px;
+    width: 100%;
+    object-fit: cover;
+}
 .media-item.spacer {
   display: block;
   background: transparent;
