@@ -2128,7 +2128,6 @@ function googleTranslateElementInit() {
         autoDisplay: false
     }, 'google_translate_element');
 
-    // Nettoie les injections Google dans le body
     const bodyObserver = new MutationObserver(function() {
         document.querySelectorAll('body > font').forEach(el => el.remove());
         document.body.childNodes.forEach(function(node) {
@@ -2168,21 +2167,15 @@ function translateSite() {
 
     setTimeout(updateDisplay, 300);
 }
+
 function cleanGoogleJunk() {
-    // Supprime les noeuds texte orphelins injectés par Google dans le body
     document.body.childNodes.forEach(function(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
             node.textContent = '';
         }
     });
-
-    // Supprime les <font> injectés
     document.querySelectorAll('body > font').forEach(el => el.remove());
 }
-if (item.type === "spacer") {
-  return '<div class="media-item spacer"></div>';  // pas de <img> !
-}
-
 </script>
 
 </body>
